@@ -220,12 +220,10 @@ font-family: SwitzerB;
 }
 
 ._btn_style{
-  /* position: relative; */
-    display: inline-block;
-    line-height: 67px;
-    /* line-height: 80px; */
-    text-align: center;
-    margin-left: 10px;
+     display: inline-block;
+  line-height: 67px;
+  margin-left: 10px;
+  text-align: center;
  
 }
 .-primary{
@@ -259,13 +257,24 @@ font-family: SwitzerB;
     margin:0 auto;
  
 }
+
+
 .form_header{
   height: 74px;
   width: 540px;
   position: relative;
   padding-left: 14px;
+  border: 1px solid #959595;
   font-weight: 500;
   font-family: 'SwitzerP';
+  border-radius: 10px;
+}
+.form_btn{
+  
+    position: relative;
+    left: -79px;
+    /* right: 65px; */
+    top: -1px;
 }
 ._path{
   padding-left: 1px;
@@ -626,41 +635,53 @@ transform: skewY(3deg); */
 }
 .btn_style{
   background-color: black;
-  position: relative;
-  padding-top: 30px;
-  top: 45px;
-  padding-bottom: 30px;
-  padding-left: 40px;
-  /* width: 50px; */
-  padding-right: 40px;
-  border-radius: 30px;
+  /* background-color: #04AA6D; Green */
+  border: none;
+  /* color: white; */
+  padding-top: 26px;
+    padding-bottom: 17px;
+    border-radius: 40px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  cursor:pointer;
+}
+.butt_img{
+/* position: absolute; */
+    padding-left: 28px;
 }
 .btn_text{
   position: relative;
-  top: 48px;
-  text-transform: capitalize;
+    top: -7px;
+    text-transform: capitalize;
+    left: 101px;;
 }
 
-/* .btn_style:hover{
-  background-color: black;
-  position: relative;
-  padding-top: 30px;
-  top: 45px;
-  padding-bottom: 30px;
-  padding-left: 171px; */
-  /* width: 50px; */
-  /* padding-right: 40px;
-  border-radius: 30px;
-} */
-/* 
+.btn_style:hover{
+   background-color: #aa4c04;
+  
+  /* border: none;
+  /* color: white; */
+  /* padding-top: 26px;
+    padding-bottom: 17px;
+    padding-left:120px;
+    border-radius: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; *
+  font-size: 16px; */
+}
+
 .btn_text:hover{
 
-  position: relative;
-  top: 48px;
-  text-transform: capitalize;
-  right: 171px;
+      /* position: relative;
+    top: -7px;
+    text-transform: capitalize;
+    left: -93px;
+color:white; */
 
-} */
+}  
 
 
 
@@ -741,7 +762,46 @@ transform: skewY(3deg); */
   border-radius: 20px;
 }
 
+.hire_now_1{
+  background-color:#202329;
+  border: none;
+  color: white;
+  /* padding: 13px 42px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 5px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.hire_now_1:hover{
+  background-color: red;
+}
+
+
+.text___{
+  background-color:#202329;
+  width: 300px;
+    /* background: white; */
+    font-size: 40px;
+    margin: 100px auto;
+    padding: 10px;
+    cursor: pointer !important;
+}
+.text___:hover{
   
+    opacity: 0.3;
+    
+}
+  
+.__Learn_small{
+  position: relative;
+  top: 50px;
+  left: 11px;
+
+}
+
   .footer_listing {
     display: block;
     line-height: 50px;
@@ -773,3 +833,10 @@ transform: skewY(3deg); */
 .brand_img{
   height: 90px;
 }
+.brandpostion{
+    /* padding-left: 50px; */
+
+    padding-top: 12%;
+    padding-right: 50%;
+}
+

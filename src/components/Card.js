@@ -5,8 +5,8 @@ import Three from '../assets/3.svg';
 import DeveOne from '../assets/dev.svg'
 import DeveTwo from '../assets/dev2.svg'
 import DeveThree from '../assets/dev3.svg'
-
-const Card = () => {
+import SmallJoin from  '../assets/smalljoin.svg' 
+ const Card = () => {
   return (
       <>
         <section className='wc_content_cc'>  
@@ -32,10 +32,16 @@ const Card = () => {
                                     <p className='small_v1'>Explore the vast Zwilt marketplace to find the candidate <br/> that meets your needs.</p>
                                     </div>
                                     <div>
-                                        <p>button</p>
+                                   
                                     </div>
-                                </div>
-                                </div>
+                                      </div>
+                                      
+                                  </div>
+                                  <div className='__Learn_small'>
+                                  <i className=''><img src={SmallJoin} alt="btn_icon" />
+</i> <span className='listingtext'> Learn More </span>
+                                  </div>
+                                
                            </div>
                             
                         </div>
@@ -64,10 +70,15 @@ const Card = () => {
                                     <p className='small_v1'>Assess the candidate through work history, transparent<br/> tests and video interviews.</p>
                                     </div>
                                     <div>
-                                        <p>button</p>
+                                      
                                     </div>
-                                </div>
-                                </div>
+                                      </div>
+                                      
+                                  </div>
+                                  <div className='__Learn_small'>
+                                  <i className=''><img src={SmallJoin} alt="btn_icon" />
+</i> <span className='listingtext'> Learn More </span>
+                                  </div>
                            </div>
                             
                         </div>
@@ -96,10 +107,14 @@ const Card = () => {
                                     <p className='small_v1'>Onboard your candidate right away and start <br/>creating the next big thing.</p>
                                     </div>
                                     <div>
-                                        <p>button</p>
+                                     
                                     </div>
                                 </div>
-                                </div>
+                                  </div>
+                                  <div className='__Learn_small'>
+                                  <i className=''><img src={SmallJoin} alt="btn_icon" />
+</i> <span className='listingtext'> Learn More </span>
+                                  </div>
                            </div>
                             
                         </div>

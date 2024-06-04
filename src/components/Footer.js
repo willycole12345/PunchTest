@@ -14,7 +14,7 @@ function Footer() {
                                     
                                 <div className='text-center'>
                                      
-                                  <div >
+                                  <div className="_pathfooterv1">
 
                                     <i className='btn_style'><img src={Downarrow} alt="btn_icon" />
                                     </i> <span className='smallP btn_text'></span>

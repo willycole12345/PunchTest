@@ -1,3 +1,43 @@
+@media screen and (max-width: 500px) {
+
+    .tabparent {
+        width: 508px;
+        height: 576px;
+    }
+
+    .form_header {
+        position: relative;
+        left: 51px;
+        /* right: 65px; */
+        top: 37px;
+        width: 72%;
+    }
+
+    .form_btn {
+        position: relative;
+        left: -35px;
+        /* right: 65px; */
+        top: 36px;
+    }
+    .paddingT {
+        padding-top: 40px;
+        padding-left: 67px;
+    }
+    .wc_content{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .wc_content_cc{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .wc_content_nocurve{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+}
+
 @media screen and (max-width: 700px) {
     .display_none{
         display: none;
@@ -35,6 +75,56 @@
     .padding_special {
         padding: 4px;
     }
+    .form_header {
+        position: relative;
+        left: 51px;
+        /* right: 65px; */
+        top: 37px;
+        width: 72%;
+    }
+
+    .form_btn {
+        position: relative;
+        left: -35px;
+        /* right: 65px; */
+        top: 36px;
+    }
+      .boorder_style_longv2 {
+        border: 1px solid #D6D6D6;
+        border-top: none;
+        /* border: 2px solid #D6D6D6; */
+        padding: 40px;
+        display: inline-block;
+        width: 102%;
+    }
+    .boorder_style {
+        border: 1px solid #D6D6D6;
+        /* border: 2px solid #D6D6D6; */
+        padding: 40px;
+        display: inline-block;
+        width: 102%;
+    }
+    .boorder_style_long {
+        border: 1px solid #D6D6D6;
+        border-left: none;
+        border: 2px solid #D6D6D6;
+        padding: 40px;
+        display: inline-block;
+        width: 102%;
+    }
+    .wc_content{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .wc_content_cc{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .wc_content_nocurve{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
 }
 
 @media screen and  (max-width: 1466px){
@@ -72,6 +162,56 @@
     .padding_special {
         padding: 4px;
     }
+    .form_header {
+        position: relative;
+        left: 51px;
+        /* right: 65px; */
+        top: 37px;
+        width: 72%;
+    }
+
+    .form_btn {
+        position: relative;
+        left: -35px;
+        /* right: 65px; */
+        top: 36px;
+    }
+      .boorder_style_longv2 {
+        border: 1px solid #D6D6D6;
+        border-top: none;
+        /* border: 2px solid #D6D6D6; */
+        padding: 40px;
+        display: inline-block;
+        width: 102%;
+    }
+    .boorder_style {
+        border: 1px solid #D6D6D6;
+        /* border: 2px solid #D6D6D6; */
+        padding: 40px;
+        display: inline-block;
+        width: 102%;
+    }
+    .boorder_style_long {
+        border: 1px solid #D6D6D6;
+        border-left: none;
+        border: 2px solid #D6D6D6;
+        padding: 40px;
+        display: inline-block;
+        width: 102%;
+    }
+    .wc_content{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .wc_content_cc{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .wc_content_nocurve{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
 }
 @media screen and (max-width: 400px) {
     .display_none{
@@ -107,5 +247,54 @@
     }
     .padding_special {
         padding: 4px;
+    }
+    .form_header {
+        position: relative;
+        left: 51px;
+        /* right: 65px; */
+        top: 37px;
+        width: 72%;
+    }
+
+    .form_btn {
+        position: relative;
+        left: -35px;
+        /* right: 65px; */
+        top: 36px;
+    }
+      .boorder_style_longv2 {
+        border: 1px solid #D6D6D6;
+        border-top: none;
+        /* border: 2px solid #D6D6D6; */
+        padding: 40px;
+        display: inline-block;
+        width: 102%;
+    }
+    .boorder_style {
+        border: 1px solid #D6D6D6;
+        /* border: 2px solid #D6D6D6; */
+        padding: 40px;
+        display: inline-block;
+        width: 102%;
+    }
+    .boorder_style_long {
+        border: 1px solid #D6D6D6;
+        border-left: none;
+        border: 2px solid #D6D6D6;
+        padding: 40px;
+        display: inline-block;
+        width: 102%;
+    }
+    .wc_content{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .wc_content_cc{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .wc_content_nocurve{
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
