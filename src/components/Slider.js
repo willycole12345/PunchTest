@@ -2,6 +2,8 @@ import React from 'react';
 import Bullet from '../assets/iconS.svg';
 import SliderOne from '../assets/sliderone.svg';
 import BtnIcon from '../assets/btnIcon.svg';
+import SliderTwo from '../assets/slider_img2.svg';
+import BttN from '../assets/BIccon.svg';
 
 const Slider = () => {
     return (
@@ -66,15 +68,15 @@ const Slider = () => {
 
                                         <div className="top">
                                             <div className="PriceColumn-checkContainer flex-container">
-                                                <img src={Bullet} alt='bullet' />
+                                                <img src={BttN} alt='bullet_' />
                                                 <span className='padding_18 smallP'> Easy and transparent one-to-one chat with candidates.</span>
                                             </div>
                                             <div className="PriceColumn-checkContainer flex-container">
-                                                <img src={Bullet} alt='bullet' />
+                                                <img src={BttN} alt='bullet_1' />
                                                 <span className='padding_18 smallP'>Simple and convenient payment methods.</span>
                                             </div>
                                             <div className="PriceColumn-checkContainer flex-container">
-                                                <img src={Bullet} alt='bullet' />
+                                                <img src={BttN} alt='bullet_3' />
                                                 <span className='padding_18 smallP'> Review past ratings.</span>
                                             </div>
                                         </div>
@@ -90,7 +92,7 @@ const Slider = () => {
                                     </div>
 
                                     <div className='float_right'>
-                                        <img src={SliderOne} alt='' />
+                                        <img src={SliderTwo} alt='slid' />
                                     </div>
                                 </div>
                             </div>
