@@ -14,8 +14,8 @@ const Slider = () => {
                         </div>
                     </div>
                     <div className='col-md-8'>
-                        <div className='boxes'>
-                            <div>
+                        <div className='card_conter'>
+                            <div className='cc_padd'>
                                 <div className='CardSliders'>
 
                                     <div className='spacing float_left'>
@@ -49,7 +49,7 @@ const Slider = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div>
+                            <div className='cc_padd'>
                                 <div className='CardSliders'>
 
                                     <div className='spacing float_left'>
