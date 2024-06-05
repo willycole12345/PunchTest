@@ -6,7 +6,7 @@ import BtnIcon from '../assets/btnIcon.svg';
 const Slider = () => {
     return (
         <div>
-            <div className=' container auto_overflow'>
+            <div className=' container auto_overflow  _pd_2'>
                 <div className='row'>
                     <div className='col-md-4'>
                         <div className='top'>
