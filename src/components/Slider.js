@@ -1,6 +1,7 @@
 import React from 'react';
 import Bullet from '../assets/iconS.svg';
 import SliderOne from '../assets/sliderone.svg';
+import BtnIcon from '../assets/btnIcon.svg';
 
 const Slider = () => {
     return (
@@ -19,7 +20,7 @@ const Slider = () => {
                                 <div className='CardSliders'>
 
                                     <div className='spacing float_left'>
-                                        <div className='paddingT'>
+                                        <div className='__pd_62'>
                                             <h3 className='headerH1 text-start'>Onboard without <br />the risk.</h3>
                                         </div>
 
@@ -40,7 +41,12 @@ const Slider = () => {
                                         </div>
                                         <div className=''>
 
-                                            button
+                                            <div className='__pd_60'>
+
+<i className=''><img src={BtnIcon} alt="btn_icon" />
+</i> <span className='smallp'> Learn Now </span>
+
+</div>
                                         </div>
                                     </div>
 
@@ -53,7 +59,7 @@ const Slider = () => {
                                 <div className='CardSliders'>
 
                                     <div className='spacing float_left'>
-                                        <div className='paddingT'>
+                                        <div className='__pd_62'>
                                             <h3 className='headerH1 text-start'>Onboard without <br />the risk.</h3>
                                         </div>
 
@@ -61,20 +67,25 @@ const Slider = () => {
                                         <div className="top">
                                             <div className="PriceColumn-checkContainer flex-container">
                                                 <img src={Bullet} alt='bullet' />
-                                                <span className='padding_18 smallP'> We pick the best for you to select. </span>
+                                                <span className='padding_18 smallP'> Easy and transparent one-to-one chat with candidates.</span>
                                             </div>
                                             <div className="PriceColumn-checkContainer flex-container">
                                                 <img src={Bullet} alt='bullet' />
-                                                <span className='padding_18 smallP'>Thousands of vetted candidates in dozens of categories.</span>
+                                                <span className='padding_18 smallP'>Simple and convenient payment methods.</span>
                                             </div>
                                             <div className="PriceColumn-checkContainer flex-container">
                                                 <img src={Bullet} alt='bullet' />
-                                                <span className='padding_18 smallP'> Risk-free resource swapping for the best fit.</span>
+                                                <span className='padding_18 smallP'> Review past ratings.</span>
                                             </div>
                                         </div>
                                         <div className=''>
 
-                                            button
+                                        <div className='__pd_60'>
+
+<i className=''><img src={BtnIcon} alt="btn_icon" />
+</i> <span className='smallp'> Learn Now </span>
+
+</div>
                                         </div>
                                     </div>
 
@@ -87,7 +98,7 @@ const Slider = () => {
                                 <div className='CardSliders'>
 
                                     <div className='spacing float_left'>
-                                        <div className='paddingT'>
+                                        <div className='__pd_62'>
                                             <h3 className='headerH1 text-start'>Onboard without <br />the risk.</h3>
                                         </div>
 
@@ -108,7 +119,12 @@ const Slider = () => {
                                         </div>
                                         <div className=''>
 
-                                            button
+                                        <div className='__pd_60'>
+
+<i className=''><img src={BtnIcon} alt="btn_icon" />
+</i> <span className='smallp'> Learn Now </span>
+
+</div>
                                         </div>
                                     </div>
 
