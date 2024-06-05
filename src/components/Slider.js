@@ -4,6 +4,13 @@ import SliderOne from '../assets/sliderone.svg';
 import BtnIcon from '../assets/btnIcon.svg';
 import SliderTwo from '../assets/slider_img2.svg';
 import BttN from '../assets/BIccon.svg';
+import SmallOne from '../assets/sce.svg';
+import SmallTwo from '../assets/sec.svg';
+import BttnTree from '../assets/butt3.svg';
+import SliderThree from '../assets/sliderThree.svg'; 
+import Slider_T from '../assets/st3__3.svg'; 
+import Slider_Th from '../assets/st__3.svg'; 
+import Slider_Thr from '../assets/smi.svg'; 
 
 const Slider = () => {
     return (
@@ -52,7 +59,7 @@ const Slider = () => {
                                         </div>
                                     </div>
 
-                                    <div className='float_right'>
+                                    <div className='float_right C_1'>
                                         <img src={SliderOne} alt='' />
                                     </div>
                                 </div>
@@ -62,7 +69,7 @@ const Slider = () => {
 
                                     <div className='spacing float_left'>
                                         <div className='__pd_62'>
-                                            <h3 className='headerH1 text-start'>Onboard without <br />the risk.</h3>
+                                        <h3 className='headerH1 text-start'>An open <br/> book.</h3>
                                         </div>
 
 
@@ -91,32 +98,43 @@ const Slider = () => {
                                         </div>
                                     </div>
 
-                                    <div className='float_right'>
-                                        <img src={SliderTwo} alt='slid' />
+                                    <div className='float_right _float_side__'>
+                                        {/* <img src={SliderTwo} alt='slid' /> */}
+                                        <div>
+                                            <div className='top___icon'>
+                                            <img src={SmallOne} alt='' />
+                                            </div>
+                                            <div>
+                                            <img src={SliderTwo} alt='' />
+                                            </div>
+                                            <div className='left_icon__'>
+                                            <img src={SmallTwo} alt='' />
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div>
+                            <div className='cc_padd'>
                                 <div className='CardSliders'>
 
                                     <div className='spacing float_left'>
                                         <div className='__pd_62'>
-                                            <h3 className='headerH1 text-start'>Onboard without <br />the risk.</h3>
+                                            <h3 className='headerH1 text-start'>Stay in the <br/>loop.</h3>
                                         </div>
 
 
                                         <div className="top">
                                             <div className="PriceColumn-checkContainer flex-container">
-                                                <img src={Bullet} alt='bullet' />
-                                                <span className='padding_18 smallP'> We pick the best for you to select. </span>
+                                                <img src={BttnTree} alt='bullet3' />
+                                                <span className='padding_18 smallP'>Track your staff activity down to every minute with screenshots. </span>
                                             </div>
                                             <div className="PriceColumn-checkContainer flex-container">
-                                                <img src={Bullet} alt='bullet' />
-                                                <span className='padding_18 smallP'>Thousands of vetted candidates in dozens of categories.</span>
+                                                <img src={BttnTree} alt='bullet3' />
+                                                <span className='padding_18 smallP'>Comprehensive timesheet data to process payments.</span>
                                             </div>
                                             <div className="PriceColumn-checkContainer flex-container">
-                                                <img src={Bullet} alt='bullet' />
-                                                <span className='padding_18 smallP'> Risk-free resource swapping for the best fit.</span>
+                                                <img src={BttnTree} alt='bullet3' />
+                                                <span className='padding_18 smallP'> Create projects to organize and assign tasks more effectively.</span>
                                             </div>
                                         </div>
                                         <div className=''>
@@ -131,7 +149,24 @@ const Slider = () => {
                                     </div>
 
                                     <div className='float_right'>
-                                        <img src={SliderOne} alt='' />
+                                        <div>
+                                            <div className='_3_sloder__s'>
+                                            <img src={Slider_Th} alt='' />
+                                            </div>
+                                            <div className='_3_sloder____'>
+                                            <img src={SliderThree} alt='' />
+                                            </div>
+                                            <div className='_3_sloder__'>
+                                            <img src={Slider_T} alt='' />
+                                            </div>
+                                            <div className='__3_slide_'>
+                                            <img src={SmallTwo} alt='' />
+                                            </div>
+                                            <div className='__3_slide'>
+                                            <img src={Slider_Thr} alt='' />
+                                            </div>
+                                        </div>
+                                      
                                     </div>
                                 </div>
                             </div>
