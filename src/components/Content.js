@@ -11,8 +11,7 @@ import Jsaon from '../assets/circleplace.svg';
 import Groove from '../assets/groove.svg';
 import Youtube from '../assets/youtube.svg';
 import YoutubeBlue from '../assets/youtubeblue.svg';
-import Bullet from '../assets/iconS.svg';
-import SliderOne from '../assets/sliderone.svg';
+
 import BtnIcon from '../assets/btnIcon.svg';
 import Card from '../components/Card';
 import News from '../components/NewletterForm';
@@ -29,6 +28,7 @@ import AI from '../assets/ai.svg';
 import AD from '../assets/AD.svg';
 import GrooveLeft from '../assets/grooveleft.svg';
 import GrooveRight from '../assets/grooveright.svg';
+import Slider from '../components/Slider'
 // import { Link } from 'react-router-dom';
 // import Button from '../components/Button';
 
@@ -345,50 +345,7 @@ const Content = () => {
           
            <Card />
            <section className='wc_content_nocurve back_ground_shadow_color_v1'>
-               <div className='container '>
-                   <div className='row'>
-                       <div className='col-md-4'>
-                           <div className='top'>
-                               <h3 className='text-start black headerH1'>Why choose <br /> Zwilt?</h3>
-                               <p className='text-start black smallP'>We take complex hiring<br /> processes - and simplify them.<br /> Connecting you to the world’s <br /> highly qualified talent pool.</p>
-                           </div>
-                       </div>
-                       <div className='col-md-8 Scrollable'>
-                           <div className='boxes CardSliders'>
-
-                               <div className='spacing'>
-                                   <div className='paddingT'>
-                                       <h3 className='headerH1 text-start'>Onboard without <br />the risk.</h3>
-                                   </div>
-
-
-                                   <div className="top">
-                                       <div className="PriceColumn-checkContainer flex-container">
-                                           <img src={Bullet} alt='bullet' />
-                                           <span className='padding_18 smallP'> We pick the best for you to select. </span>
-                                       </div>
-                                       <div className="PriceColumn-checkContainer flex-container">
-                                           <img src={Bullet} alt='bullet' />
-                                           <span className='padding_18 smallP'>Thousands of vetted candidates in dozens of categories.</span>
-                                       </div>
-                                       <div className="PriceColumn-checkContainer flex-container">
-                                           <img src={Bullet} alt='bullet' />
-                                           <span className='padding_18 smallP'> Risk-free resource swapping for the best fit.</span>
-                                       </div>
-                                   </div>
-                                   <div className=''>
-                                       
-                                       button
-                                   </div>
-                               </div>
-
-                               <div className=''>
-                                   <img src={SliderOne} alt='' />
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
+           <Slider/>
            </section>
            <section className='wc_content__n back_ground_grey_color_v1'>
                <div className='container-fluid'>
@@ -403,23 +360,23 @@ const Content = () => {
                                    <p className='text-center black faq_boorder_style_text'>General</p>
                                </div>
                                <div  className='boorder_style_long'>
-                                   <p className='text-center  faq_boorder_style_text'>I want to work part-time, is that possible</p>
+                                   <p className='text-center  faq_boorder_style_text bo_x_1'>I want to work part-time, is that possible</p>
                               </div>
 
                            </div>
                            <div>
                                <div  className='boorder_style_longv1'>
-                                   <p className='text-center  faq_boorder_style_text'>I want to work part-time, is that possible</p>
+                                   <p className='text-center  faq_boorder_style_text bo_x_2'>I want to work part-time, is that possible</p>
                               </div>
                            </div>
                            <div>
                                <div  className='boorder_style_longv1'>
-                                   <p className='text-center  faq_boorder_style_text padding_right'>How does the payment works?</p>
+                                   <p className='text-center  faq_boorder_style_text padding_right bo_x_3'>How does the payment works?</p>
                               </div>
                            </div>
                            <div>
                                <div  className='boorder_style_longv1'>
-                                   <p className='text-center  faq_boorder_style_text padding_right'>How much can I earn?</p>
+                                   <p className='text-center  faq_boorder_style_text padding_right bo_x_4'>How much can I earn?</p>
                               </div>
                            </div>
                            
@@ -431,18 +388,18 @@ const Content = () => {
                                    <p className='text-center black faq_boorder_style_text'>General</p>
                                </div>
                                <div  className='boorder_style_longv2'>
-                                   <p className='text-center  faq_boorder_style_text'>I want to work part-time, is that possible</p>
+                                   <p className='text-center  faq_boorder_style_text bo_x_5'>I want to work part-time, is that possible</p>
                               </div>
 
                            </div>
                            <div>
                                <div  className='boorder_style_longv1'>
-                                   <p className='text-center  faq_boorder_style_text padding_right'>How long are the average projects?</p>
+                                   <p className='text-center  faq_boorder_style_text padding_right bo_x_6'>How long are the average projects?</p>
                               </div>
                            </div>
                            <div>
                                <div  className='boorder_style_longv1'>
-                                   <p className='text-center  faq_boorder_style_text padding_right'>How much can I earn?</p>
+                                   <p className='text-center  faq_boorder_style_text padding_right bo_x_7'>How much can I earn?</p>
                               </div>
                                </div>
                            </div>

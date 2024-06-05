@@ -11,7 +11,7 @@ import SmallJoin from  '../assets/smalljoin.svg'
       <>
         <section className='wc_content_cc'>  
            <div className='justify-content-center'>
-                        <div className='bottom_v1 '>
+                        <div className='bottom_v1'>
                              <h3 className='text-center black headerH1'>Start your journey today.</h3>
                          </div>
              </div>
