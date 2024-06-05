@@ -44,7 +44,7 @@ const Slider = () => {
                                             <div className='__pd_60'>
 
 <i className=''><img src={BtnIcon} alt="btn_icon" />
-</i> <span className='smallp'> Learn Now </span>
+</i> <span className='smallP'> Learn Now </span>
 
 </div>
                                         </div>
@@ -83,7 +83,7 @@ const Slider = () => {
                                         <div className='__pd_60'>
 
 <i className=''><img src={BtnIcon} alt="btn_icon" />
-</i> <span className='smallp'> Learn Now </span>
+</i> <span className='smallP'> Learn Now </span>
 
 </div>
                                         </div>
@@ -122,7 +122,7 @@ const Slider = () => {
                                         <div className='__pd_60'>
 
 <i className=''><img src={BtnIcon} alt="btn_icon" />
-</i> <span className='smallp'> Learn Now </span>
+</i> <span className='smallP'> Learn Now </span>
 
 </div>
                                         </div>
