@@ -148,8 +148,8 @@ const Slider = () => {
                                         </div>
                                     </div>
 
-                                    <div className='float_right'>
-                                        <div>
+                                    <div className='float_right sec_floating'>
+                                        <div className='d__div__'>
                                             <div className='_3_sloder__s'>
                                             <img src={Slider_Th} alt='' />
                                             </div>
